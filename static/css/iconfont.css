@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1661839800380') format('truetype');
+  src: url('iconfont.ttf?t=1661948918278') format('truetype');
 }
 
 .iconfont {
@@ -9,6 +9,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-link:before {
+  content: "\e6bf";
 }
 
 .icon-bokexinwen:before {
@@ -23,8 +27,16 @@
   content: "\e651";
 }
 
+.icon-icon-articles:before {
+  content: "\e601";
+}
+
 .icon-github:before {
   content: "\e620";
+}
+
+.icon-about:before {
+  content: "\e66a";
 }
 
 .icon-jiankong:before {
