@@ -1,6 +1,6 @@
 <?php
-$feed_url = "https://blog.inkdust.top/atom.xml";
-$data = simplexml_load_file("https://blog.inkdust.top/atom.xml")->channel->item;
+$feed_url = "https://blog.inkdust.top/rss.xml";
+$data = simplexml_load_file("https://blog.inkdust.top/rss.xml")->channel->item;
 $resp = [
     "status" => 0,
     "data" => []
